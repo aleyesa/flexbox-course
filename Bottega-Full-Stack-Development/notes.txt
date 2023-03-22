@@ -1,0 +1,2 @@
+Mozilla firefox developer tools
+https://www.mozilla.org/en-US/firefox/developer/

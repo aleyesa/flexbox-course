@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../Documents/Projects"
+		},
+		{
+			"path": "../Exercism"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

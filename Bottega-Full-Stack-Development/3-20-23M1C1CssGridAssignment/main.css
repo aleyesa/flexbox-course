@@ -1,0 +1,103 @@
+/* Grid 1 */
+/* applied display grid properties and set each two columns equal to each other */
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f7f7f7;
+}
+
+.blue-color {
+    color: blue;
+}
+
+/* Grid 2 */
+/* set different background colors for each grid child */
+.gridTwo > .gridTwoChild1 {
+    background-color: red;
+}
+
+.gridTwo > .gridTwoChild2 {
+    background-color: blue;
+}
+
+.gridTwo > .gridTwoChild3 {
+    background-color: yellow;
+}
+
+/* created a grid and created three columns where the first two are the same size while the third is twice the size  */
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+/* Grid 3 */
+/* created grid with 2 rows, with 2nd row being 3 times as large as first row */
+.gridThree {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+}
+
+/* changed background colors for both childs */
+.gridThree > .gridThreeChild1 {
+    background-color: #f7f7f7;
+}
+
+.gridThree > .gridThreeChild2 {
+    background-color: lightblue;
+}
+
+/* set specs for image  */
+.gridThree > .gridThreeChild2 img {
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+}
+
+/* Grid 4 */
+/* created grid that created 2 equal rows */
+.gridFour {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+}
+
+/* created the nested grid the has 2 equal columns */
+#gridFourChild2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Grid 5 */
+/* created grid with 2 equal rows */
+.gridFive {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: darkcyan;
+}
+
+/* created grid where first column is twice as large */
+#gridFiveChild2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: bisque;
+}
+
+#gridFiveChild2 img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+/*  Grid 6 */
+.gridSix {
+    font-family: 'Press Start 2P', cursive;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: lightgray;
+    width: 500px;
+}
+
